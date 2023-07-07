@@ -11,17 +11,23 @@
       rel="stylesheet"
     />
 
-    <title>Yuri Braga Souza</title>
+     <title>Yuri Braga Souza</title>
+    
+    
   </head>
+
   <body>
-    <div class="caixa-principal">
+
+    <div class="caixa-principal" id="home">
+
+      
       <nav>
         <h2 class="portifolio">Portifo<span>lio</span></h2>
         <ul>
-          <li><a>Home</a></li>
-          <li><a>Sobre</a></li>
-          <li><a>Projetos</a></li>
-          <li><a>Fale Comigo</a></li>
+          <li><a class="link-menu" href="#home">Home</a></li>
+          <li><a class="link-menu" href="#sobre">Sobre</a></li>
+          <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+          <li><a class="link-menu" href="#fale-comigo">Fale Comigo</a></li>
         </ul>
       </nav>
 
@@ -31,10 +37,10 @@
       </div>
     </div>
 
-    <section>
+    <section id="sobre">
       <img src="./img/perfil.png" />
       <div>
-        <h2>Sobre min</h2>
+        <h2>Sobre mim</h2>
         <p>
           Yuri Braga Souza é um profissional formado em Análise e
           Desenvolvimento de Sistemas, com uma paixão incansável por solucionar
@@ -46,37 +52,58 @@
           profissional altamente confiável e um ativo valioso em qualquer equipe
           de desenvolvimento de sistemas.
         </p>
-        <button>Entre em contato</button>
+        <a href="#fale-comigo"><button>Entre em contato</button><a></a>
       </div>
     </section>
 
-    <div class="projetos">
+    <div class="projetos" id="projetos-id">
       <h2>Principais projetos</h2>
 
       <div class="card-projetos">
-
-        
         <div class="card">
           <img src="./img/calculadora.png" />
           <h5>Calculadora</h5>
-          <p>as231da21sda32s1d3a2s1da3s21d asdasdasasd asdasdasda</p>
-          <a>Ver projeto</a>
+          <p>Digite os números e realize cálculos.</p>
+          <a href="https://calculadorayuri.netlify.app/" target="_blank"
+            >Ver projeto</a
+          >
         </div>
 
         <div class="card">
           <img src="./img/relogio.png" />
           <h5>Relógio</h5>
-          <p>as231da21sda32s1d3a2s1da3s21d asdasdasasd asdasdasda</p>
-          <a>Ver projeto</a>
+          <p>O relógio está em modo de espera.</p>
+          <a href="https://relogioyuri.netlify.app/" target="_blank"
+            >Ver projeto</a
+          >
         </div>
 
         <div class="card">
           <img src="./img/validaçaoformulario.png" />
           <h5>Validação Formulário</h5>
-          <p>as231da21sda32s1d3a2s1da3s21d asdasdasasd asdasdasda</p>
-          <a>Ver projeto</a>
+          <p>Preencha todos os campos obrigatórios.</p>
+          <a href="https://validacaoformulario.netlify.app/" target="_blank"
+            >Ver projeto</a
+          >
         </div>
       </div>
     </div>
+
+    <footer id="fale-comigo">
+      <h5>Yuri Braga</h5>
+      <p>Para mais informações</p>
+
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/yuri-braga-souza/"
+          target="_blank"
+        >
+          <img src="./img/LINKEDIN.png"
+        /></a>
+
+        <a href="https://wa.me/qr/FCJ6EOJEKUCRM1" target="_blank"> <img src="./img/telefone.png"
+        /></a>
+      </div>
+    </footer>
   </body>
 </html>
